@@ -1,0 +1,17 @@
+{
+  "name": "staine-music",
+  "version": "1.0.0",
+  "main": "src/service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-staine/Back-StaimeMusic.git"
+  },
+  "keywords": ["Desenvolvimento Web", "Node.js", "Express", "Dev BackEnd"],
+  "author": "Rafael Staine dos Santos",
+  "license": "MIT",
+  "descreption": "Sistema de exemplo Para curso Técnico de Informática do IFSP, aplicando API.",
+  "type": "module"
+}
