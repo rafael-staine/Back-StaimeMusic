@@ -3,15 +3,33 @@
   "version": "1.0.0",
   "main": "src/service.js",
   "scripts": {
+    "start": "node src/service.js",
+    "dev": "nodemon src/service.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafael-staine/Back-StaimeMusic.git"
   },
-  "keywords": ["Desenvolvimento Web", "Node.js", "Express", "Dev BackEnd"],
+  "keywords": [
+    "Desenvolvimento Web",
+    "Node.js",
+    "Express",
+    "Dev BackEnd"
+  ],
   "author": "Rafael Staine dos Santos",
   "license": "MIT",
   "descreption": "Sistema de exemplo Para curso Técnico de Informática do IFSP, aplicando API.",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.10",
+    "sucrase": "^3.35.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
 }
