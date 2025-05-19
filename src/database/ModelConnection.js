@@ -1,14 +1,8 @@
-import sequelize, { Sequalize } from 'sequelize'
+import sequelize, { Sequelize } from 'sequelize'
 import databaseConfig from '../config/Database.js'
 import Usuario from '../models/Usuario.js'
 
-
-
-
-
 const models = [Usuario]
-
-
 class ModelConnection {
     constructor() {
         this.init()

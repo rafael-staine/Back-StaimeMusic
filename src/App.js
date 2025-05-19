@@ -1,25 +1,26 @@
 import express from 'express'
 import dotenv from 'dotenv'
-import homeRouter from './routers/Home.Routes.js'
-import usuarioRouter from './routers/Usuario.Routes.js'
+import './database/ModelConnection.js'
+import homeRoutes from './routers/Home.Routes.js'
+import usuarioRoutes from './routers/Usuario.Routes.js'
+
 
 dotenv.config()
-
 class App {
     constructor() {
         this.app = express()
-        this.middlewares()
+        this.middlawares()
         this.routes()
     }
 
-    middlewares() {
+    middlawares() {
         this.app.use(express.json())
         this.app.use(express.urlencoded({ extended: true }))
     }
 
     routes() {
-        this.app.use('/', homeRouter)
-        this.app.use('/usuario', usuarioRouter)
+        this.app.use('/', homeRoutes)
+        this.app.use('/usuario', usuarioRoutes)
     }
 }
 
