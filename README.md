@@ -1,16 +1,17 @@
-# Site de musica - Staine Music
-### desenvolvido em Node.JS com JavaScript
+# Site de venda de instrumentos e acessórios - Staine Music
 
-### Projeto desenvolvido para Aula de Disciplina CARBEK1
-curso: Técnico de Informatica para Internet
-Instituição: IFSP - Instituto Federal de São Paulo
-Campus: Caraguatatuba
+### Desenvolvido em Node.JS com JavaScript
+
+#### Projeto desenvolvido para Aula da Disciplina CARBEK1
+
+Curso: Técnico de Informática para Internet  
+Instituição: IFSP - Instituto Federal de São Paulo  
+Campus: Caraguatatuba  
 Professor: **Denny Paulista Azevedo Filho**
 
-#### Tecnologia utilizada:
+#### Tecnologias utilizadas
 
 - Node.JS 22.13.1
-- JavaScript
 - Express
 - MySQL
 - API Rest
@@ -18,7 +19,7 @@ Professor: **Denny Paulista Azevedo Filho**
 - Nodemon
 - Sucrase
 
-Desenvolvido em JavaScript  
+Desenvolvido em JavaScrit  
 Utilizando _Visual Code_
 
 Autor: **Denny Paulista Azevedo Filho**
